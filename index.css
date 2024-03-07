@@ -12,8 +12,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-header {
-    margin-top: 35px;
+nav{
+    padding-top: 34px;
 }
 
 .list_group {
@@ -34,7 +34,7 @@ header {
 .btn_box {
     display: flex;
     justify-content: end;
-}
+} 
 
 .btn_right {
     font-size: 24px;
@@ -44,8 +44,32 @@ header {
     border: 2px solid #263238;
     border-radius: 5px;
 }
+/* --------------------------- */
 
-
+.text_header {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 20px;
+    padding-top: 114px;
+}
+.paragraf {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8F95A5;
+}
+.header_btn {
+    padding: 17px 67px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    background: #263238;
+    border: none;
+    border-radius: 10px;
+}
+.girl-photo {
+    width: 100%;
+}
 
 
 
@@ -54,15 +78,32 @@ header {
 /* RESPONSIVE WEBSITE */
 
 @media(max-width: 576px) {
-    .text_box {
+    .text_box{
         text-align: end;
     }
 
-    .girl_box {
+    .girl_box{
         text-align: center;
     }
 
-    .sm-girl-img {
+    .sm-girl-img{
         width: 100%;
+    }
+
+    .text_header{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 16px;
+    }
+    .paragraf{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .header_btn{
+        padding: 18px 77px;
+    }
+    .div_box{
+        text-align: center;
     }
 }
