@@ -12,7 +12,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-nav{
+/* ------------------------------------------ */
+nav {
     padding-top: 34px;
 }
 
@@ -34,7 +35,7 @@ nav{
 .btn_box {
     display: flex;
     justify-content: end;
-} 
+}
 
 .btn_right {
     font-size: 24px;
@@ -44,7 +45,6 @@ nav{
     border: 2px solid #263238;
     border-radius: 5px;
 }
-/* --------------------------- */
 
 .text_header {
     font-size: 50px;
@@ -53,11 +53,13 @@ nav{
     padding-bottom: 20px;
     padding-top: 114px;
 }
+
 .paragraf {
     font-size: 18px;
     font-weight: 400;
     color: #8F95A5;
 }
+
 .header_btn {
     padding: 17px 67px;
     font-size: 26px;
@@ -67,43 +69,151 @@ nav{
     border: none;
     border-radius: 10px;
 }
+
 .girl-photo {
     width: 100%;
 }
 
+/* -------------------------------------------- */
+.vor {
+    padding: 30px;
+    background: #efeeee;
+    border-radius: 10px;
+}
 
+.skil {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
 
+.img_vor {
+    width: 100%;
+}
 
+.spk {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.impr {
+    padding-top: 18px;
+    font-size: 16px;
+    color: #8F95A5;
+    font-weight: 400;
+}
+
+.learn {
+    /* padding-top: 18px; */
+    font-size: 16px;
+    color: #8F95A5;
+    margin-top: 34px;
+    font-weight: 400;
+}
+
+.btn_vor_01 {
+    width: 215px;
+    height: 55px;
+    background: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 48px;
+}
+
+.btn_vor {
+    width: 215px;
+    height: 55px;
+    background: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.big_dad {
+    display: flex;
+    justify-content: space-between;
+}
+
+.typ {
+    width: 73%;
+    margin-left: 50px;
+}
+
+.omig {
+    font-size: 16px;
+    color: #8F95A5;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.box_2 {
+    background: #efeeee;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.box_3 {
+    background: #efeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.asd {
+    height: 70%;
+}
+
+section {
+    margin-bottom: 50px;
+}
 
 /* RESPONSIVE WEBSITE */
 
 @media(max-width: 576px) {
-    .text_box{
+    .text_box {
         text-align: end;
     }
 
-    .girl_box{
+    .girl_box {
         text-align: center;
     }
 
-    .sm-girl-img{
+    .sm-girl-img {
         width: 100%;
     }
 
-    .text_header{
+    .text_header {
         font-size: 24px;
         text-align: center;
         padding-top: 16px;
     }
-    .paragraf{
+
+    .paragraf {
         font-size: 14px;
         text-align: center;
     }
 
-    .header_btn{
+    .header_btn {
         padding: 18px 77px;
     }
-    .div_box{
+
+    .div_box {
         text-align: center;
     }
 }
