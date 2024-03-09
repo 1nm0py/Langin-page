@@ -146,10 +146,12 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
+.typ_02{
+    text-align: center;
+}
 .typ {
     width: 73%;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .omig {
@@ -221,7 +223,9 @@ section {
     .box_3 {
         display: list-item;
     }
-
+.typ_02{
+    text-align: center;
+}
     .box_2 {
         margin-top: 20px;
     }
