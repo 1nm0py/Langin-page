@@ -187,7 +187,7 @@ nav {
     padding: 25px;
 }
 
-.flex_ow {    
+.flex_ow {
     display: flex;
     justify-content: space-between;
     height: 58%;
@@ -197,10 +197,42 @@ section {
     margin-bottom: 50px;
 }
 
-.div{
+.div {
     width: 100%;
 }
 
+/* ===================== */
+.about {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.lorem {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8F95A5;
+}
+
+.dad_child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dachi {
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+}
+.son{
+    font-weight: 600;
+    font-size: 48px;
+}
+.pep{
+    color: #8F95A5;
+}
 
 /* RESPONSIVE WEBSITE */
 
@@ -236,9 +268,10 @@ section {
         text-align: center;
     }
 
-    .box_2{
+    .box_2 {
         width: 100%;
     }
+
     .box_3 {
         background: #efeeee;
         margin-top: 19px;
@@ -247,6 +280,7 @@ section {
         border-radius: 10px;
         padding: 25px;
     }
+
     .box_2 {
         background: #efeeee;
         border-radius: 10px;
@@ -254,10 +288,18 @@ section {
         width: 100%;
         /* height: 100%; */
     }
-    .typ{
+
+    .typ {
         height: 100%;
     }
-    .box_3{
+
+    .box_3 {
         margin-top: 10px;
+    }
+    .chil_left{
+        text-align: center;
+    }
+    .dad_child{
+        display: list-item;
     }
 }
